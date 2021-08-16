@@ -1,0 +1,22 @@
+{
+  "name": "express_sample_api",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "sqlite3": "^5.0.2"
+  },
+  "description": "A sample REST API with express.js to get used to some basic concepts.",
+  "main": "api.js",
+  "repository": "https://github.com/GeroVanMi/expressSampleAPI.git",
+  "author": "Gerome Meyer <gerome.meyer@icloud.com>",
+  "license": "MIT"
+}
